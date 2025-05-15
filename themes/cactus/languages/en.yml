@@ -3,25 +3,13 @@ nav:
   about: About
   articles: Writing
   tag: Tag
-  category: Category
-  projects: Projects
   search: Search
-  links: Links
 
 icons:
   menu: Menu
   top: Top
 
-footer:
-  copyright: Copyright
-
 index:
-  find_me_on: Find me on
-  enum_comma: ','
-  enum_and: and
-  articles: Writing
-  projects: Projects
-  topics: Topics
   most_recent: Most recent
 
 post:
@@ -66,5 +54,5 @@ comments:
   no_js: Please enable JavaScript to view the comments.
 
 tooltip:
-  copy_tip: Copy to clipboard!
-  copied: Copied!
+  copy_tip: Copy to clipboard.
+  copied: Copied~

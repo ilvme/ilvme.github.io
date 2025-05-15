@@ -10,6 +10,8 @@ keywords: '林深时觉寒, 博客, Blog, 随笔'
 author: 林深时觉寒
 language: zh-CN
 timezone: 'Asia/Shanghai'
+encoding: utf-8
+
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
