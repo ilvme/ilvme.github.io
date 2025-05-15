@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 林深时觉寒
-subtitle: '我的博客'
-description: '这是很好的文字描述'
-keywords:
+title: 聪明的墨菲特
+subtitle:
+description: '一个脱离不了低级趣味的人的寻常日子里的惨淡经营。'
+keywords: '林深时觉寒, 博客, Blog, 随笔'
 author: 林深时觉寒
 language: zh-CN
 timezone: 'Asia/Shanghai'
@@ -94,8 +94,6 @@ exclude:
 ignore:
 
 # Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
 theme: cactus
 
 # Deployment

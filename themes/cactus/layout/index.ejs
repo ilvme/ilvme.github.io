@@ -11,18 +11,18 @@
         <% var title = label || icon %>
         <% if (icon == 'mail') { %>
           <a class="icon u-email" target="_blank" rel="noopener" href="<%- link %>" aria-label="<%- title %>" title="<%- title %>">
-            <i class="fa-solid fa-envelope"></i><!--
-      ---></a>
+            <i class="fa-solid fa-envelope"></i>
+          </a>
         <% } else if (icon == 'rss') { %>
           <a class="icon" target="_blank" rel="noopener" href="<%- link %>" aria-label="<%- title %>" title="<%- title %>">
             <i class="fa-solid fa-rss"></i>
           </a>
         <% } else { %>
           <a class="icon u-url" target="_blank" rel="noopener me" href="<%- url_for(link) %>" aria-label="<%- title %>" title="<%- title %>">
-            <i class="fa-brands fa-<%= icon %>"></i><!--
-      ---></a><!--
-    ---><% } %><!--
-    ---><%= ( nb_links > 0 && i < nb_links-1 ?
+            <i class="fa-brands fa-<%= icon %>"></i>
+          </a>
+            <% } %>
+            <%= ( nb_links > 0 && i < nb_links-1 ?
             ( i == nb_links-2 ? ' '+__('index.enum_and')+' '
             : __('index.enum_comma')+' ' )
             : '.' ) %>
@@ -33,14 +33,7 @@
 </section>
 
 <section id="writing">
-  <span class="h1"><a href="<%- url_for(theme.nav.articles) %>"><%= __('index.articles') %></a></span>
-  <% if (theme.tags_overview && site.tags.length) { %>
-  <span class="h2"><%= __('index.topics') %></span>
-  <span class="widget tagcloud">
-    <%- tagcloud(theme.tags_overview) %>
-  </span>
-  <span class="h2"><%= __('index.most_recent') %></span>
-  <% } %>
+  <span class="h1"><%= __('index.most_recent') %></span>
   <ul class="post-list">
     <% var field_sort = theme.posts_overview.sort_updated ? 'updated' : 'date' %>
     <% if (theme.posts_overview.show_all_posts) { %>

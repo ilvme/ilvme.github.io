@@ -1,7 +1,3 @@
-##############################################################################
-# Content
-##############################################################################
-
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
@@ -9,6 +5,8 @@ projects_url: http://github.com/probberechts
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
+
+
 # Configure the navigation menu.
 # A pair 'Key: url' will result in a link to 'url' with the name 'Key' in the
 # navigation menu. Optionally, you can add translations for the 'Key' in
@@ -17,7 +15,10 @@ nav:
   home: /
   about: /about/
   articles: /archives/
+  category: /categories/
+  tag: /tags/
   links: /links/
+  search: /search/
 
 
 # Links to your social media accounts.
@@ -29,14 +30,14 @@ nav:
 social_links:
   -
     icon: github
-    link: http://github.com/probberechts/cactus-dark
+    link: http://github.com/ilvme
   -
     icon: mail
-    link: mailto:name@email.com
+    link: mailto:ikangjia.cn@outlook.com
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
-tags_overview: false
+tags_overview: true
 
 # Customize the overview with the most recent blog posts on the index page.
 # Options:
@@ -74,7 +75,7 @@ copyright:
 error_404:
   enabled: true
   title: "404 Page Not Found"
-  description: "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+  description: "你走到了荒无人烟的地方，回来吧，我的孩子."
 
 
 ##############################################################################
