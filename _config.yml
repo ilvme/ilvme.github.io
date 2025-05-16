@@ -102,3 +102,22 @@ theme: cactus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+
+
+# 文章加密
+encrypt: # hexo-blog-encrypt
+  abstract: 有东西被加密了, 请输入密码查看.
+  message: 您好, 这里需要密码.
+  silent: true
+  theme: wave
+  tags:
+    - {name: 日记, password: 123456}
+  wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
+  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
+
+# 隐藏文字
+spoiler:
+  style: blur # 或者box
+  color: black # 仅当 style 为 box 时起效
+  p: false # 没懂啥意思，不管它

@@ -1,10 +1,21 @@
 ---
 title: Photo test
-imgs: 
-  - /images/夜雨述怀.png
-  - /images/夜雨述怀.png
-  - /images/夜雨述怀.png
-  - /images/夜雨述怀.png
+tags: [日记]
+photos: 
+  - https://probberechts.github.io/hexo-theme-cactus/cactus-classic/public/assets/wallpaper-2572384.jpg
+  - https://probberechts.github.io/hexo-theme-cactus/cactus-classic/public/assets/wallpaper-2572384.jpg
+  - https://probberechts.github.io/hexo-theme-cactus/cactus-classic/public/assets/wallpaper-2572384.jpg
+  - https://probberechts.github.io/hexo-theme-cactus/cactus-classic/public/assets/wallpaper-2572384.jpg
+  - https://probberechts.github.io/hexo-theme-cactus/cactus-classic/public/assets/wallpaper-2572384.jpg
+  - https://probberechts.github.io/hexo-theme-cactus/cactus-classic/public/assets/wallpaper-2572384.jpg
+  - https://probberechts.github.io/hexo-theme-cactus/cactus-classic/public/assets/wallpaper-2572384.jpg
+  - https://probberechts.github.io/hexo-theme-cactus/cactus-classic/public/assets/wallpaper-2572384.jpg
+  - https://probberechts.github.io/hexo-theme-cactus/cactus-classic/public/assets/wallpaper-2572384.jpg
+  - https://probberechts.github.io/hexo-theme-cactus/cactus-classic/public/assets/wallpaper-2572384.jpg
+  - https://probberechts.github.io/hexo-theme-cactus/cactus-classic/public/assets/wallpaper-2572384.jpg
+  - https://probberechts.github.io/hexo-theme-cactus/cactus-classic/public/assets/wallpaper-2572384.jpg
+  - https://probberechts.github.io/hexo-theme-cactus/cactus-classic/public/assets/wallpaper-2572384.jpg
+  - https://probberechts.github.io/hexo-theme-cactus/cactus-classic/public/assets/wallpaper-2572384.jpg
+  - https://probberechts.github.io/hexo-theme-cactus/cactus-classic/public/assets/wallpaper-2572384.jpg
+  - https://probberechts.github.io/hexo-theme-cactus/cactus-classic/public/assets/wallpaper-2572384.jpg
 ---
-
-## 测试图片
