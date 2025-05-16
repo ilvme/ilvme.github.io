@@ -209,7 +209,8 @@ code
     a:hover
       color: lighten($color-meta-code, 20%)
 
-    &:before, content: ""
+    &:before
+      content: ""
       display: table
 
     &:after
@@ -246,3 +247,10 @@ code
 
 #header-post #actions
   direction: ltr !important
+
+.tag_count_class
+  font-size: 0.8em
+.tag_count_class:before
+  content: "("
+.tag_count_class:after
+  content: ")"

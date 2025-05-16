@@ -1,5 +1,5 @@
 ---
-title: 普通测试
+title: md 全文支持类型展示
 tags: []
 categories: [Mess]
 ---
