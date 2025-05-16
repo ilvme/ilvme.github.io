@@ -1,0 +1,32 @@
+/* 容器块通用样式 */
+.vp-container {
+    padding: 0 16px;
+    margin: 12px 0;
+    border-radius: 8px;
+    background-color: var(--bg-color);
+}
+
+/* 图标和标题样式 */
+.vp-container::before {
+    /*content: attr(data-icon);*/
+    /*font-weight: 600;*/
+    /*margin-right: 8px;*/
+}
+
+/* 不同风格 */
+.vp-tip {
+    --bg-color: #f3f8ff;
+    color: #2c3e50;
+}
+.vp-warning {
+    --bg-color: #fdedd7;
+    color: #2c3e50;
+}
+.vp-success {
+    --bg-color: #f0f9eb;
+    color: #2c3e50;
+}
+.vp-danger {
+    --bg-color: #fef0f0;
+    color: #2c3e50;
+}
