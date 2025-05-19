@@ -5,8 +5,8 @@
 nav:
   home: /
   articles: /archives/
-  tag: /tags/
-  category: /categories/
+#  tag: /tags/
+#  category: /categories/
   about: /about/
   link: /links/
   search: /search/
