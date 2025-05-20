@@ -11,7 +11,7 @@ date: 2025-05-15 14:19:11
 偶尔打打游戏，一直在辅助的位置尝试着所有自认为有趣（快乐）的英雄，信奉快乐游戏的前提是：进入游戏的第一件事，键入 `/mute all`，再按下 `Enter`。
 
 ## 关于本站
-本站是使用 [hexo](https://hexo.io/) 搭建的，主题基于 [hexo-theme-icarus](https://github.com/ppoffice/hexo-theme-icarus) 进行部分魔改。
+本站是使用 [hexo](https://hexo.io/) 搭建的，主题基于 [hexo-theme-cactus](https://github.com/probberechts/hexo-theme-cactus) 进行部分魔改。
 
 **一句话与君共勉：**
 越来越明白，长大后的生活，没有喜出望外的惊喜，也没有自然而然的稳定前进，有的只不过是需要带上披荆斩棘般的勇气去开拓！
