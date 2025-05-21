@@ -7,8 +7,9 @@ date: 2025-05-15 14:19:11
 ```json
 {
     "name": "聪明的墨菲特",
-    "link": "https://ikangjia.cn"
-    "avatar": ""
+    "link": "https://ikangjia.cn",
+    "avatar": "",
+    "word": "Every dog has its day."
 }
 ```
 </details>
