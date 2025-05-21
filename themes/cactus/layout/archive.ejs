@@ -1,20 +1,26 @@
 <div id="archive">
-  <ul class="post-list">
-    <% var year = 0 %>
-    <% var change = false %>
-    <% var field_sort = theme.archive.sort_updated ? 'updated' : 'date' %>
-    <% page.posts.sort(field_sort, 'desc').each(function(post) { %>
-      <% var itemYear = date(post[field_sort], 'YYYY') %>
-      <% change = year !== itemYear %>
-      <% year = change ? itemYear : year %>
-      <% if (change) { %>
-        <li class="post-year"><h2><%= year %></h2></li>
-      <% } %>
-      <li class="post-item">
-        <%- partial('_partial/post/date', { post: post, class_name: 'meta' }) %>
-        <span><%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %></span>
-      </li>
-    <% }); %>
-  </ul>
-  <%- partial('_partial/pagination') %>
+    <div class="tag-cloud-tags">
+        <%- tagcloud({min_font: 14, max_font: 18, amount: 300, show_count: true, count_class: 'tag_count_class'}) %>
+    </div>
+    <div style="">
+        <ul class="post-list">
+            <% var year = 0 %>
+            <% var change = false %>
+            <% var field_sort = theme.archive.sort_updated ? 'updated' : 'date' %>
+            <% page.posts.sort(field_sort, 'desc').each(function(post) { %>
+                <% var itemYear = date(post[field_sort], 'YYYY') %>
+                <% change = year !== itemYear %>
+                <% year = change ? itemYear : year %>
+                <% if (change) { %>
+                    <li class="post-year"><h2><%= year %></h2></li>
+                <% } %>
+                <li class="post-item">
+                    <%- partial('_partial/post/date', {post: post, class_name: 'meta'}) %>
+                    <span><%- partial('_partial/post/title', {post: post, index: true, class_name: ''}) %></span>
+                </li>
+            <% }); %>
+        </ul>
+    </div>
+
+    <%- partial('_partial/pagination') %>
 </div>
