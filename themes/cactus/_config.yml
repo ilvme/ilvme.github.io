@@ -6,7 +6,7 @@ nav:
   home: /
   articles: /archives/
 #  tag: /tags/
-#  category: /categories/
+  category: /categories/
   about: /about/
   link: /links/
   search: /search/
@@ -27,7 +27,7 @@ social_links:
 #   - sort_updated: sort posts by last modification date instead of creation date.
 posts_overview:
   show_all_posts: false
-  post_count: 12
+  post_count: 7
   sort_updated: false
 
 # Customize the archive view.
