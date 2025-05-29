@@ -72,3 +72,9 @@ text: 'Chart.js Line Chart'
 {% spoiler 默认配置效果 %}
 
 {% spoiler 这是一段隐藏的话 %}
+
+## 分隔线
+
+使用三个横杠 `---`，效果如下
+
+---
