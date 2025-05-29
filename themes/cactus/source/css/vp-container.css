@@ -15,18 +15,18 @@
 
 /* 不同风格 */
 .vp-tip {
-    --bg-color: #f3f8ff;
+    --bg-color: #e1f1f6;
     color: #2c3e50;
 }
 .vp-warning {
-    --bg-color: #fdedd7;
+    --bg-color: #f9e7d6;
     color: #2c3e50;
 }
 .vp-success {
-    --bg-color: #f0f9eb;
+    --bg-color: #e8f1e8;
     color: #2c3e50;
 }
 .vp-danger {
-    --bg-color: #fef0f0;
+    --bg-color: #fce6e7;
     color: #2c3e50;
 }
