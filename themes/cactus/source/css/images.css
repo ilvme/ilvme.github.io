@@ -1,0 +1,33 @@
+/* 在主题的 _config.yml 或对应 CSS 文件中添加 */
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 10px;
+    margin: 2em 0;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+.image-gallery div {
+    text-align: center;
+    font-size: .85em;
+    color: #666;
+}
+
+.image-gallery span {
+    margin-top: 10px;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.03);
+}
+
+img:hover {
+    transition: transform 0.5s ease;
+    transform: scale(1.02);
+}
