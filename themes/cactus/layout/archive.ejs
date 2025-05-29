@@ -1,8 +1,4 @@
 <div id="archive">
-    <div class="tag-cloud-tags">
-        <%- tagcloud({min_font: 14, max_font: 18, amount: 300, show_count: true, count_class: 'tag_count_class'}) %>
-    </div>
-    <div style="">
         <ul class="post-list">
             <% var year = 0 %>
             <% var change = false %>
@@ -20,7 +16,6 @@
                 </li>
             <% }); %>
         </ul>
-    </div>
 
     <%- partial('_partial/pagination') %>
 </div>
