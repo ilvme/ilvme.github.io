@@ -2,7 +2,7 @@
 title: 用了近十年的 QQ
 date: 2019-10-11 00:00:00
 tags: []
-categories: [Mess]
+categories: [Essays]
 ---
 
 ![qq](/images/qq.png)
