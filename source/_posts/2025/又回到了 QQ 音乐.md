@@ -1,10 +1,8 @@
 ---
 title: 又回到了 QQ 音乐
 date: 2025-03-18
-tags:
-    - 音乐
-categories:
-    - Mess
+categories: [Essays]
+tags: [音乐, 听歌]
 ---
 
 看着歌单越来越多的变灰和歌单过半的歌曲成为会员歌曲，终于无法忍受了，打算尝试下别的平台。
