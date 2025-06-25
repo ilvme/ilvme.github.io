@@ -34,6 +34,10 @@
               <%- list_categories() %>
             </div>
           </div>
+          <% } else if (page.type === 'words') { %>
+              <div>
+                  <iframe src="https://ikangjia.notion.site/ebd/1a4c485ef35680d890a3f1cbcbc57c2e" width="90%" style="border-radius: 10px" height="500px" frameborder="0" allowfullscreen seamless />
+              </div>
         <% } else { %>
           <%- page.content %>
         <% } %>
